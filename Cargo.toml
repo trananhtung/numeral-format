@@ -1,0 +1,25 @@
+[package]
+name = "numeral-format"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.81"
+description = "Format numbers with the numeral.js format-string DSL (separators, decimals, abbreviations, currency, percentages, bytes, ordinals). A faithful port of the numeral npm package's formatting. Zero dependencies, no_std."
+documentation = "https://docs.rs/numeral-format"
+repository = "https://github.com/trananhtung/numeral-format"
+homepage = "https://github.com/trananhtung/numeral-format"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+keywords = ["number", "format", "numeral", "currency", "humanize"]
+categories = ["value-formatting"]
+authors = ["trananhtung"]
+exclude = ["/.github", "/.gitignore"]
+
+[dependencies]
+
+[lints.rust]
+missing_docs = "warn"
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
